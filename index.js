@@ -1,7 +1,7 @@
 const readline = require('readline');
-const { createTask, getTasks } = require('./JavaScript/Teilnehmer1');
-const { markTaskAsDone } = require('./JavaScript/Teilnehmer2');
-const { deleteTask } = require('./JavaScript/Teilnehmer3');
+const { createTask, getTasks } = require('./src/Teilnehmer1');
+const { markTaskAsDone } = require('./src/Teilnehmer2');
+const { deleteTask } = require('./src/Teilnehmer3');
 
 // Interface für die Konsoleneingabe erstellen
 const rl = readline.createInterface({
